@@ -48,11 +48,6 @@ li a {
 
 }
 
-section {
-    display: inline-block;
-}
-
-
 .top-txt {
     margin-top: 75px;
     margin-left: 91px;
@@ -120,4 +115,27 @@ h1 {
 
 button {
     border: none;
+}
+
+.img-section-left {
+    display: inline-block;
+}
+
+.img-section-right {
+    display: inline-block;
+    position: relative;
+}
+
+.body-img {
+    position: relative;
+    top: 180px;
+    left: 120px;
+    
+}
+
+.woman-img {
+    position: absolute;
+    top: 0;
+    left: 125px;
+    
 }
