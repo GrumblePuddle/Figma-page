@@ -1,5 +1,5 @@
 
-
+/*Header starts here*/
 .first-name {
     margin-top: 24px;
     margin-left: 34px;
@@ -48,6 +48,7 @@ ul {
 
 }
 
+/*Main section to the left starts here*/
 .top-txt {
     margin-top: 75px;
     margin-left: 91px;
@@ -117,6 +118,7 @@ button {
     border: none;
 }
 
+/*Image section starts here*/
 .img-section-left {
     display: inline-block;
 }
@@ -165,7 +167,7 @@ button {
 
 
 
-
+/*Footer section starts here*/
 footer {
     position: fixed;
     bottom: 0;
