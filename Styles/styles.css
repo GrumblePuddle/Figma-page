@@ -24,11 +24,28 @@ header {
 }
 
 ul {
+    margin-top: 23px;
+    margin-left: 200px;
     list-style-type: none;
     display: inline-block;
+    background-color: green;
+    
     
 }
 
 li {
-    
+    display: inline-block;
+}
+
+li a { 
+
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(6, 6, 6, 0.44);
+
 }
