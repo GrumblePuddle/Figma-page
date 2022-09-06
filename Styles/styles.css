@@ -30,12 +30,12 @@ ul {
     
 }
 
-li {
+.top-nav {
     display: inline-block;
     width: 95px;
 }
 
-li a { 
+.top-nav a { 
 
     text-align: center;
     text-decoration: none;
@@ -128,14 +128,77 @@ button {
 
 .body-img {
     position: relative;
-    top: 180px;
+    top: 135px;
     left: 120px;
     
 }
 
 .woman-img {
     position: absolute;
-    top: 0;
+    top: -45px;
     left: 125px;
     
+}
+
+.img-txt-bold {
+    position: absolute;
+    top: 200px;
+    right: -200px;
+    max-width: 200px;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.img-txt-normal {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+ol {
+    display: inline-block;
+    margin-left: 34px;
+    margin-bottom: 30px;
+}
+
+.bot-nav {
+    display: inline-block;
+    list-style-type: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(6, 6, 6, 0.44);
+}
+
+.bot-right { 
+    float: right;
+    width: 120px;
+    margin-right: 35px;
+    margin-bottom: 38px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    color: rgba(6, 6, 6, 0.44);
 }
