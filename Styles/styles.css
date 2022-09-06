@@ -48,7 +48,9 @@ li a {
 
 }
 
-
+section {
+    display: inline-block;
+}
 
 
 .top-txt {
